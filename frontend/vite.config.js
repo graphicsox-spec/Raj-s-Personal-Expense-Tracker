@@ -4,5 +4,6 @@ import { viteSingleFile } from 'vite-plugin-singlefile'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Raj-s-Personal-Expense-Tracker/',
   plugins: [react(), viteSingleFile()],
 })
