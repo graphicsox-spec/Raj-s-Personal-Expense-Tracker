@@ -105,7 +105,7 @@ function App() {
         <div className="brand" style={{ marginBottom: '40px' }}>
           <div className="flex items-center gap-3 justify-between">
             <div className="flex items-center gap-3">
-              <img src="/Raj.jpg" alt="Raj" style={{ width: '42px', height: '42px', borderRadius: '50%', objectFit: 'cover', border: '2px solid var(--accent-blue)' }} />
+              <img src={`${import.meta.env.BASE_URL}Raj.jpg`} alt="Raj" style={{ width: '42px', height: '42px', borderRadius: '50%', objectFit: 'cover', border: '2px solid var(--accent-blue)' }} />
               <div className="flex" style={{ flexDirection: 'column' }}>
                 <h1 style={{ fontSize: '1.25rem' }}>Raj Tulsiani</h1>
                 <span style={{ textTransform: 'none', letterSpacing: '0.5px', marginTop: '2px', opacity: 0.8, fontSize: '0.8rem' }}>Personal Finance</span>
